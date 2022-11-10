@@ -29,8 +29,6 @@ class TaskList {
 
     }
     cargarLocalStorage() {
-       this.todos = (localStorage.getItem('guardar'))
-                     ? JSON.parse(localStorage.getItem('guardar')) 
-                     : [] ; 
+       this.todos = (localStorage.getItem('guardar')) ? JSON.parse(localStorage.getItem('guardar')) : [] ; 
     }
 }
