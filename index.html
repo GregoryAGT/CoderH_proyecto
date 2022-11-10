@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css">
+		<title>Tareas G.G.</title>		
+	</head>
+	<body>		
+		<section class="todoapp">
+			<header class="header">
+				<h1>Pendientes</h1>	
+				<input class="new-todo" placeholder="ingresa una nueva tarea" autofocus>
+			</header>								
+			<section class="main">
+				<input id="toggle-all" class="toggle-all" type="checkbox">				
+				<ul class="todo-list">					
+				</ul>
+			</section>			
+			<footer class="footer">				
+				<button class="clear-completed">Borrar completados</button>
+			</footer>
+		</section>
+		<script src="/apireq.js"></script>
+		<script src="/class.task.js"></script>
+		<script src="/class.tasklist.js"></script>		       
+        <script src="/index.js"></script>
+	</body>
+</html>
